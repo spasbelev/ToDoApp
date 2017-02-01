@@ -15,11 +15,6 @@ class SingleTaskCell: UITableViewCell
 {
     
     @IBOutlet weak var taskDescription: UILabel!
-    @IBOutlet weak var checkBox: UIButton!
     
-    
-    
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-    }
+
 }
