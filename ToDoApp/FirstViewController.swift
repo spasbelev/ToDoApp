@@ -132,8 +132,15 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         
-        //let row = indexPath.row
-        print("Description")
+        let row = indexPath.row
+        performSegue(withIdentifier: "showDescription", sender: row)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showDescription"{
+         let secondView = segue.destination as! taskDescription
+            secondView.taskNumber = sender as? Int
+        }
     }
     
     override func didReceiveMemoryWarning() {
@@ -171,3 +178,4 @@ extension FirstViewController: UNUserNotificationCenterDelegate
         self.progressStatus.setProgress(finishedTaskPercentage, animated: true)
     }
 }
+

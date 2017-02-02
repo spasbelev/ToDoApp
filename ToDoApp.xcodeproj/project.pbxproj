@@ -14,6 +14,7 @@
 		3F37F0261E3F7084004897C6 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F37F0241E3F7084004897C6 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3F37F0291E3F8498004897C6 /* TaskDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37F0281E3F8498004897C6 /* TaskDataType.swift */; };
 		3F37F02B1E408461004897C6 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37F02A1E408461004897C6 /* StartScreenViewController.swift */; };
+		3F37F02F1E43AFA7004897C6 /* TaskDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37F02E1E43AFA7004897C6 /* TaskDescriptionView.swift */; };
 		3F8F94911E3CB036007CBAA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8F94901E3CB036007CBAA9 /* AppDelegate.swift */; };
 		3F8F94931E3CB036007CBAA9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8F94921E3CB036007CBAA9 /* FirstViewController.swift */; };
 		3F8F94951E3CB036007CBAA9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8F94941E3CB036007CBAA9 /* SecondViewController.swift */; };
@@ -64,6 +65,7 @@
 		3F37F0241E3F7084004897C6 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
 		3F37F0281E3F8498004897C6 /* TaskDataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDataType.swift; sourceTree = "<group>"; };
 		3F37F02A1E408461004897C6 /* StartScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
+		3F37F02E1E43AFA7004897C6 /* TaskDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDescriptionView.swift; sourceTree = "<group>"; };
 		3F8F948D1E3CB036007CBAA9 /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F8F94901E3CB036007CBAA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F8F94921E3CB036007CBAA9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				3F8F94C01E3CBD7C007CBAA9 /* SingleTaskCell.swift */,
 				3F8F94C21E3CE628007CBAA9 /* ThridViewController.swift */,
 				3F37F02A1E408461004897C6 /* StartScreenViewController.swift */,
+				3F37F02E1E43AFA7004897C6 /* TaskDescriptionView.swift */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -497,6 +500,7 @@
 				3F8F94951E3CB036007CBAA9 /* SecondViewController.swift in Sources */,
 				3F8F94C31E3CE628007CBAA9 /* ThridViewController.swift in Sources */,
 				3F8F94911E3CB036007CBAA9 /* AppDelegate.swift in Sources */,
+				3F37F02F1E43AFA7004897C6 /* TaskDescriptionView.swift in Sources */,
 				3F8F94931E3CB036007CBAA9 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
